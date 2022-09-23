@@ -1,0 +1,44 @@
+<div class="container">
+        <div class="section">
+            <div class="col span_2_of_3">
+                <div class="blog-post">
+                    <h1 class="blog-title">Nombre del tema</h1>
+                    <img src="../Quimica General/media/material de vidrio.jpg" alt="">
+                    <h2 class="Tema-1">INTRODUCCIÓN</h2>
+                    <p class="blog-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia harum porro, rerum doloremque vel pariatur repellat soluta magnam reiciendis ex accusantium sit commodi nobis officia voluptas illo ipsam repudiandae Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae ab doloremque nihil, ut ipsam error at omnis saepe nobis deserunt mollitia accusamus inventore. Tempora pariatur minima id rem Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde ea adipisci labore quo esse eos, sed excepturi fugit vel ullam eius dignissimos fugiat. Dolores libero tempore saepe odio ab! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima quod, assumenda, sapiente odio amet veritatis quam ipsa eveniet vel, voluptatum corrupti officia voluptates fugiat beatae quo commodi numquam similique dolorem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore natus nesciunt tenetur a illo esse recusandae. Fugiat, nostrum. Reiciendis sint dignissimos, voluptas reprehenderit soluta commodi deserunt ad. Consequatur, recusandae et!
+                    </p>
+                    <h2 class="Tema-1">Tema 1</h2>
+                    <p class="blog-contents">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quae officiis eos dignissimos recusandae quam nam voluptatem adipisci natus blanditiis doloremque? Architecto explicabo repellendus qui voluptatibus, dolor cupiditate expedita delectus.</p>
+                    <h2 class="Tema-1">Tema 2</h2>
+                    <p class="blog-contents">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugit possimus dolore consequuntur esse beatae hic perferendis ipsam dicta at unde incidunt ab, voluptatum harum doloribus provident labore sint ipsum?</p>
+                    <h2 class="Tema-1">Tema 3</h2>
+                    <p class="blog-contents">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quae officiis eos dignissimos recusandae quam nam voluptatem adipisci natus blanditiis doloremque? Architecto explicabo repellendus qui voluptatibus, dolor cupiditate expedita delectus.</p>
+                    <h2 class="Tema-1">Tema 4</h2>
+                    <p class="blog-contents">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugit possimus dolore consequuntur esse beatae hic perferendis ipsam dicta at unde incidunt ab, voluptatum harum doloribus provident labore sint ipsum?</p>
+                    <h2 class="Tema-1">Tema 5</h2>
+                    <p class="blog-contents">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quae officiis eos dignissimos recusandae quam nam voluptatem adipisci natus blanditiis doloremque? Architecto explicabo repellendus qui voluptatibus, dolor cupiditate expedita delectus.</p>
+                    <h2 class="Tema-1">Tema 6</h2>
+                    <p class="blog-contents">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugit possimus dolore consequuntur esse beatae hic perferendis ipsam dicta at unde incidunt ab, voluptatum harum doloribus provident labore sint ipsum?</p>
+                </div>
+            </div>
+
+            <aside class="col span_1_of_3">
+                <div class="side-post">
+                    <h1 class="post-lado">¡Aquí puedes ir directamente a lo que busques!</h1>
+                    <p class="side-content">
+                        <ul>
+                            <li class="side-list">poner tema</li>
+                            <li class="side-list">poner tema</li>
+                            <li class="side-list">poner tema</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="side-post">
+                    <h1 class="post-lado">Si te sientes confiado puedes intentar resolver algunos ejercicios</h1>
+                    <a href="#" class="boton-link">Ver ejercicios</a>
+                </div>
+            </aside>
+
+        </div>
+    </div>
