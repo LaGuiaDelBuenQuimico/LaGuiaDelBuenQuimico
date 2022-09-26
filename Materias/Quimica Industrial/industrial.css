@@ -5,14 +5,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
+    background: #dbd9d9;
     background-image: url(./media/fondo.jpg);
-    position: relative;
-    top: 150px;
 }
+
+/*HEADER*/
 
 header{
     height: 120px;
@@ -72,32 +73,14 @@ header{
 }
 
 .menu nav ul li a{
-    font-size: 17px;
+    font-size: 16px;
     text-decoration: none;
     color: #000;
-    transition: opacity 300ms;
-    position: relative;
+    transition: opacity 300ms; 
 }
 
-
-.menu nav ul li a:after{
+.menu nav ul li a:hover{
     opacity: 0.4;
-    content:"";
-    position: absolute;
-    right: 0;
-    bottom: -5px;
-    left: 0;
-    height: 2px;
-    width: 100%;
-    background: #68249f;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform 0.2s ease-in-out;
-}
-
-.menu nav ul li a:hover::after{
-    transform-origin: left;
-    transform: scaleX(1);
 }
 
 .header__register,
@@ -138,12 +121,12 @@ header{
 
 #ctn-icon-search{
     position:absolute;
-    right: 55px;
+    right: 50px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 65px;
 }
 
 
@@ -195,7 +178,7 @@ header{
 #box-search li a{
    display: block;
    width: 100%;
-   color: #000000;
+   color: #5b5b5b;
    padding: 12px, 20px;
    text-decoration: none;
    height: 30px;
@@ -216,15 +199,13 @@ header{
     width: 100%;
     height: 100%;
     position: fixed;
-    top: 0;
     left: 0px;
     background:rgba(0, 0, 0, 0.5);
     z-index: 7;
     display: none;
 }
 
-
-@media (max-width: 1100px){
+@media (max-width: 600px){
     
     
     
@@ -302,6 +283,37 @@ header{
         padding:10px 40px;
     }
 
+
+    .mostrar_menu{ 
+        height: 235px;
+    }
+
+    .text__information-cover h1{
+        font-size: 50px;
+        font-family: 'Prompt', sans-serif;
+    }
+
+    .text__information-cover p{
+        font-size: 18px;
+        font-family: 'Prompt', sans-serif;
+    }
+
+    .banner__text h2{
+        font-size: 22px;
+    }
+
+    #icon_heart{
+        left: -60px;
+    }
+
+    .banner__icon-fire{
+        right: -20px;
+    }
+
+    .media__cover{
+        display:contents;
+    }
+
     
     .header__register,
     .btn__header-register{
@@ -312,126 +324,11 @@ header{
         overflow:hidden;
     }
 
-
-    
-
-    .mostrar_menu{ /*CLASE MANIPULADA POR JS*/
-        height: 235px;
+    .buttons__cover{
+        display:flex;
+        margin-left:0;
     }
 }
-
-
-
-    @media (max-width: 920px){
-
-    
-
-        .container__header{
-            display:flex;
-            height: 120px;
-            position: relative;
-            padding: 0px;
-            width: 100%;
-            top: 20px;
-            right: 40px;
-        }
-        .logo{
-            margin-left: 60px;
-        }
-    
-        .header__register{
-            margin-left: 10px;
-        }
-    
-        #icon_menu{
-            margin-left: 100%;
-        }
-        
-        #ctn-icon-search{
-            position:absolute;
-            right: 20px;
-            height: 100%;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-        }
-}
-
-
-/*ACA VA EL CSS DEL FOOTER*/
-
-.footer{
-    padding: 40px 0;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    width: 100%;
-    top: 245rem;
-    box-shadow: 10px 0 10px 0px rgb(135, 135, 135);
-}
-.footer .social{
-    text-align: center;
-    padding-bottom: 25px;
-    color: #c180f7;
-}
-
-.footer .social a{
-    font-size: 24px;
-    color: inherit;
-    border: 1px solis #ccc;
-    width: 40px;
-    height: 40px;
-    line-height: 38px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-    opacity: 0.65;
-}
-
-.footer .social a:hover{
-    opacity: 0.9;
-}
-
-.footer ul{
-    margin-top: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.footer ul li a{
-    color: inherit;
-    text-decoration: none;
-    opacity: 0.65;
-}
-
-
-.footer ul li{
-display: inline-block;
-padding: 0 15px;
-}
-
-
-.footer ul li a:hover{
-opacity: 1.0;
-}
-
-
-.footer .copyright{
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: #aaa;
-}
-
-
-
-
-
-
 
 
 /*Se marcan secciones del blog*/
@@ -476,22 +373,16 @@ opacity: 1.0;
     margin: 0 auto;
     padding: 20px;
     margin-top: 100px;
-    
 }
 
 .blog-post{
-    background: rgb(255, 255, 255);
+    background: white;
     margin: 0 auto 2em auto;
     padding: 35px 30px; 
-    border-radius: 10px;
-    box-sizing: border-box;
-    box-shadow: 3px 3px 3px 3px rgba(31, 30, 30, 0.2);
+    box-shadow: 2px 2px 2px 2px #aba7a7;
 }
 
 .side-post{
-    position: relative;
-    left: 700px;
-    bottom: 215.3rem;
     background: white;
     margin: 0 auto 1.5em auto;
     width: 15em;
@@ -526,9 +417,8 @@ opacity: 1.0;
     text-align: center;
 }
 
-
 .boton-link{
-    padding:14px 50px;
+    padding:14px 25px;
     margin-bottom: 15px;
     text-decoration: none;
     border: none;
@@ -559,7 +449,6 @@ opacity: 1.0;
     color: #514f4f;
     opacity: 70%;
 }
-
 
 .Tema-1{
     margin-top: 15px;
@@ -594,8 +483,9 @@ opacity: 1.0;
     cursor: pointer;
 }
 
-@media screen and (max-width: 1035px) {
-    
+/*diseño responsive*/
+
+@media screen and (max-width: 56.25em) {
     .col{
         margin: 1% 0 1% 0%;
     }
@@ -603,40 +493,32 @@ opacity: 1.0;
     .span_2_of_3,
     .span_1_of_3{
         width: 100%;
-        margin-top: 250px;
     } 
 
-    .primero{
-        position: absolute;
-        top: 180px;
-        left: auto;
-        margin-top: -200px;
-        margin-left: 0px;
-        margin-bottom: 0;
-        width: 350px;
+    .side-post{
+        width: 42%;
+        float: left;
+        margin: -2% 0 1% 1.6%;
     }
-
-    .segundo{
-        position: absolute;
-        left: auto;
-        top: 243.6rem;
-        margin-top: -160px;
-        margin-left: 0;
-        margin-bottom: 0;
-        width: 300px;
-    }
-    .boton-link{
-        position: relative;
-        left: 28px;
-
-    }
-
-    
-    
-    
 }
 
+@media screen and (max-width: 42.813) {
+    .side-post{
+        width: auto;
+        padding: 15px;
+        margin: -2% auto 8% auto;
+        float: right;
+    }
 
+    .blog-title{
+        font-size: 1.95em;
+    }
+
+    .blog-subtitle{
+        font-size: .9em;
+    }
+
+}
 
 @media screen and (max-width: 23.75em) {
     .blog-content,
