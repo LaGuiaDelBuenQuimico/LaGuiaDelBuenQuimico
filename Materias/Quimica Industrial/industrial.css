@@ -117,6 +117,7 @@ header{
 }
 
 
+
 /*Barra de busqueda*/
 
 #ctn-icon-search{
@@ -205,7 +206,7 @@ header{
     display: none;
 }
 
-@media (max-width: 600px){
+@media (max-width: 1100px){
     
     
     
@@ -502,7 +503,7 @@ header{
     }
 }
 
-@media screen and (max-width: 42.813) {
+@media screen and (max-width: 42.813em) {
     .side-post{
         width: auto;
         padding: 15px;
@@ -520,13 +521,16 @@ header{
 
 }
 
-@media screen and (max-width: 23.75em) {
+@media screen and (max-width: 380px) {
     .blog-content,
     .boton-link{
-        font-size: 5px;
+        font-size: 15px;
     }
 
     .side-content{
         font-size: .8em;
+    }
+    .esquema img{
+        width: 100%;
     }
 }
