@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +8,9 @@
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 
-    <script src="https://kit.fontawesome.com/d0a24b6e7a.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="general.css">
-    <link rel="icon" href="media/icono.png">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Materias/materias.css">
+    <link rel="icon" href="../media/icono.png">
 </head>
-
 
 <body>
     <header>
@@ -23,22 +18,21 @@
         <div class="container__header">	
 
             <div class="logo">
-                <img src="media/icono.png" alt="">
+                <img src="../media/icono.png" alt="">
             </div>
 
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="../materias.html">Materias</a></li>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="materias.html">Materias</a></li>
                         <li><a href=".">Diccionario</a></li>
                         <li><a href=".">Creadores</a></li>
                         <li><a href=".">Contactos</a></li>
                     </ul>
                 </nav>
             </div>
-        
-
+            
 
             <div id="ctn-icon-search">
                 <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
@@ -47,10 +41,9 @@
                 <i class="fa-solid fa-bars" id="icon_menu"></i>
 
             <div class="header__register">
-                <input type="button" class="btn__header-register" value="Registrarse(Proceso)">
+                <input type="button" class="btn__header-register" value="Registrarse (Proceso)">
             </div>
         </div>
-
 
     </header>
 
@@ -59,52 +52,115 @@
     </div>
 
     <ul id="box-search">
-        <li><a href="Materias/Quimica Organica/organica.html"><i class="fa-solid fa-magnifying-glass"></i>Quimica Organica</a></li>
-        <li><a href="Materias/Quimica General/general.html"><i class="fa-solid fa-magnifying-glass"></i>Quimica General</a></li>
-        <li><a href="Materias/Quimica Inorganica/inorganica.html"><i class="fa-solid fa-magnifying-glass"></i>Quimica Inorganica</a></li>
-        <li><a href="Materias/Quimica Analitica Cualitativa/analitica.html"><i class="fa-solid fa-magnifying-glass"></i>Quimica Analitica Cuantitativa</a></li>
-        <li><a href="Materias/OPQ/opq.html"><i class="fa-solid fa-magnifying-glass"></i>Operaciones de Procesos Quimicos</a></li>
-        <li><a href="Materias/Practicas de Laboratorio/practicas.html"><i class="fa-solid fa-magnifying-glass"></i>Practicas de Laboratorio</a></li>
-        <li><a href="../Materias/materias.html"><i class="fa-solid fa-magnifying-glass"></i>Materias</a></li>
+        <li><a href="Quimica Organica/organica.html"><i class="fa-solid fa-magnifying-glass"></i>Quimica Organica</a></li>
+        <li><a href="Laboratorio de Instromental/instrumental.html"><i class="fa-solid fa-magnifying-glass"></i>Laboratirio de Instrumental</a></li>
+        <li><a href="Quimica General/general.html"><i class="fa-solid fa-magnifying-glass"></i>Quimica General</a></li>
+        <li><a href="Quimica Inorganica/inorganica.html"><i class="fa-solid fa-magnifying-glass"></i>Quimica Inorganica</a></li>
+        <li><a href="Quimica Analitica Cualitativa/analitica.html"><i class="fa-solid fa-magnifying-glass"></i>Quimica Analitica Cualitativa</a></li>
+        <li><a href="OPQ/opq.html"><i class="fa-solid fa-magnifying-glass"></i>Operaciones de Procesos Quimicos</a></li>
+        <li><a href="Practicas de Laboratorio/practicas.html"><i class="fa-solid fa-magnifying-glass"></i>Practicas de Laboratorio</a></li>
+        <li><a href="Materias/materias.html"><i class="fa-solid fa-magnifying-glass"></i>Materias</a></li>
 
     </ul>
     
     <div id="cover-ctn-search"></div>
 
-    <main>
-        <section>
-            <div class="Titulo">
-            
-                <div class="text__information-cover">
-                    <h1>Temario de Química General</h1>
-    
-                    <h3>Aquí puedes seleccionar los temas actualmente disponibles sobre la materia.</h3>
-                </div>
+
+
+
+<main>
+    <section>
+        <div class="Titulo">
+        
+            <div class="text__information-cover">
+                <h1>Materias</h1>
+
+                <h3>Aquí puedes seleccionar las materias actualmente disponibles. Con el tiempo se agregaran más temas y materias.</h3>
             </div>
-    
-            <div class="container">
-                <div class="card" id="cards">
+        </div>
+
+        <div class="container">
+            <div class="card" id="cards">
+                <figure>
+                    <img src="../Materias/Imagenes Materias/química.jpg" alt="">
+                </figure>
+            <div class="contenido">
+                <h3>Química General</h3>
+                <p>La química general estudia las leyes, los fundamentos y los principios básicos comunes de la química. Se busca dar una introduccion a una amplia cantidad de conceptos en química.</p>
+                <a href="./Quimica General/seleccionQgeneral.html">Ver Materia</a>
+            </div>
+        </div>
+               
+            <div class="card" id="cards">
+            <figure>
+                <img src="../Materias/Imagenes Materias/química.jpg" alt="">
+            </figure>
                 <div class="contenido">
-                    <h3>Soluciones</h3>
-                    <a href="./general soluciones/generalsoluciones.html">Ver Ahora</a>
+                    <h3>Química Inorgánica</h3>
+                    <p>La química general estudia las leyes, los fundamentos y los principios básicos comunes de la química. Se busca dar una introduccion a una amplia cantidad de conceptos en química.</p>
+                    <a href="Quimica Inorganica/inorganica.html">Ver Materia</a>
                 </div>
             </div>
-                   
-                <div class="card" id="cards">                
-                    <div class="contenido">
-                        <h3>Estequiometría</h3>
-                        <a href="./Estequiometria/estequiometria.html">Ver Ahora</a>
-                    </div>
+            <div class="card" id="cards">
+                <figure>
+                    <img src="./Quimica Industrial/concepto-industria-quimica-produccion-quimica-industrial-productos-quimicos_277904-8890.webp" alt="">
+                </figure>
+                <div class="contenido">
+                    <h3>Quimica Industrial</h3>
+                    <a href="./Quimica Industrial/Industial.html">Ver Materia</a>
                 </div>
-        </section>
-    
-    </main>
+            </div>
+            <div class="card" id="cards">
+                <figure>
+                    <img src="Imagenes Materias/bioquimica-e1570663454368.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                    <h3>Laboratorio de Instrumental</h3>
+                    <p>La Química Orgánica estudia la estructura, propiedades físicas, la reactividad y transformación de los compuestos orgánicos.</p>
+                    <a href="Laboratorio de Instromental/instrumental.html">Ver Materia</a>
+                </div>
+            </div>
+            <div class="card" id="cards">
+                <figure>
+                    <img src="Imagenes Materias/bioquimica-e1570663454368.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                    <h3>Química Analítica Cualitativa</h3>
+                    <p>La Química Orgánica estudia la estructura, propiedades físicas, la reactividad y transformación de los compuestos orgánicos.</p>
+                    <a href="Quimica Analitica Cualitativa/analitica.html">Ver Materia</a>
+                </div>
+            </div>
+            <div class="card" id="cards">
+                <figure>
+                    <img src="Imagenes Materias/bioquimica-e1570663454368.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                    <h3>Química Orgánica</h3>
+                    <p>La Química Orgánica estudia la estructura, propiedades físicas, la reactividad y transformación de los compuestos orgánicos.</p>
+                    <a href="Quimica Organica/organica.html">Ver Materia</a>
+                </div>
+            </div>
+            <div class="card" id="cards">
+                <figure>
+                    <img src="Imagenes Materias/bioquimica-e1570663454368.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                    <h3>Prácticas de Laboratorio</h3>
+                    <p>La Química Orgánica estudia la estructura, propiedades físicas, la reactividad y transformación de los compuestos orgánicos.</p>
+                    <a href="Practicas de Laboratorio/practicas.html">Ver Materia</a>
+                </div>
+            </div>
+
+        
+    </section>
+
+</main>
 
 
 
-    <section class="footer">
+    <footer class="footer">
         <div class="social">
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/laguiadelbuenquimico/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-facebook"></i></a>
         </div>
@@ -119,7 +175,7 @@
         <p class="copyright">
             La Guia Del Buen Químico © 2022
         </p>
-    </section>
+    </footer>
 
     <script src="general.js"></script>
 
